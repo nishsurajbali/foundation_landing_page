@@ -42,7 +42,7 @@ h2 {
 
 .main-title {
     flex: 1;
-    padding-right: 40px;
+    padding-right: 100px;
 }
 
 .header-hero {
@@ -67,11 +67,52 @@ h2 {
 
 button {
     background-color: #3882F6;
+    font-weight: 900;
     color: white;
     padding: 10px 40px;
     border: none;
     border-radius: 10px;
     margin-top: 10px;
     font-family: Roboto;
-    font-size: 15px;  
+    font-size: 18px;  
+}
+
+.random-info {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 300px 50px 300px;
+}
+
+.random-info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.illustration {
+    width: auto;
+    height: 150px;
+    border: #3882F6 solid 4px;
+    border-radius: 20px;
+}
+
+.random-info ul{
+    display: flex;
+    padding: 0px;
+}
+
+.random-info ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: auto;
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+    flex-grow: 1;
+    font-size: 18px;
 }
