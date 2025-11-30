@@ -176,3 +176,16 @@ h2 {
 .calltoaction-header-text {
     color: lightgrey;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px 50px 200px;
+    background-color:  #1f2937;
+}
+
+.copyright {
+    color: lightgray;
+    font-size: 18px;
+}
